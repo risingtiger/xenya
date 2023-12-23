@@ -1,0 +1,20 @@
+{
+  "name": "xenya",
+  "main": "./build/index.js",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "buildcha": "tsc;",
+    "devcha": "node ./build/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/pubsub": "^4.0.6",
+    "firebase-admin": "^11.11.0",
+    "@influxdata/influxdb-client": "^1.33.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.8.2"
+  }
+}
